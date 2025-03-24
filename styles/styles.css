@@ -39,7 +39,7 @@ a {
 /* 2. fonts */
 h1{
     font-family: Merriweather, serif;
-    font-weight: 400;
+    font-weight: bold;
     font-style: normal;
     font-size: 2.6em;
     color: var(--light-gray);
@@ -380,14 +380,14 @@ label {
 }
 
 .send {
-
     min-width: 200px;
+    /*padding: 25px 15px;*/
     border: 1px solid var(--pink);
     flex-basis: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 320px;
+    margin: 0 40%;
     border-radius: 30px;
     background-color: var(--pink);
     border: var(--pink);
