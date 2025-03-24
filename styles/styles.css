@@ -365,15 +365,18 @@ label {
     flex-basis: 60px;
     width: 100%;
     padding-left: 10px;
+    font-size: 1.2em;
 }
 
 .email {
     flex-basis: 60px;
     width: 100%;
     padding-left: 10px;
+    font-size: 1.2em;
 }
 
 .text-field {
+    font-size: 1.2em;
     flex-basis: 230px;
     width: 100%;
     padding: 10px;
