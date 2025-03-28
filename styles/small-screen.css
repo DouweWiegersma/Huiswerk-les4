@@ -50,6 +50,9 @@
     }
 
     /* First Section*/
+
+
+
     .section1 {
         flex-basis: 500px;
     }
@@ -72,15 +75,19 @@
     }
 
     /* section 2*/
+
+
+
     .section2 {
         padding: 0;
         margin: 0;
+        min-height: 3500px;
     }
 
     .outer-div {
         padding: 0;
         margin: 0;
-        flex-basis: 100vw;
+        flex-basis: auto;
     }
 
     .rolling-stone {
@@ -110,20 +117,26 @@
     }
 
     .inner-div1 {
+
         flex-wrap: wrap;
+        margin-top: 100px;
     }
 
     .inner-div2 {
         flex-wrap: wrap;
+
     }
 
     .inner-div3 {
         flex-wrap: wrap;
+
+        justify-content: space-evenly;
+
     }
 
     .work-img1 {
         margin: 0;
-        padding-top: 120px;
+        padding-top: 0;
 
     }
     /*section 3*/
@@ -146,19 +159,21 @@
     /*Section 4  form*/
     .section4 {
         justify-content: flex-start;
-
     }
 
     .form-title {
         font-size: 1.4em;
         font-weight: bold;
+        justify-content: space-between;
+        min-height: 200px;
     }
 
     form {
         width: 100vw;
+        min-height: 1050px;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-evenly;
 
     }
 
@@ -198,10 +213,11 @@
     .send {
         padding: 40px 150px;
         margin: 0 30%;
+        font-size: 1.2em;
         border-radius: 45px;
     }
     footer {
         flex-basis: 120px;
-        font-size: 1em;
+        font-size: 1.2em;
     }
 }
