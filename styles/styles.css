@@ -81,6 +81,7 @@ main{
     flex-direction: column;
     flex-basis: auto;
 }
+
 /*2. Nav -- Header*/
 header{
     flex-basis: 700px;
@@ -187,6 +188,7 @@ ul{
     display: flex;
     padding: 40px 20px 200px;
     background-color: var(--light-gray);
+
     /* Rolling stones */
 
     .outer-div {
